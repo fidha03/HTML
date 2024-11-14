@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: darkgreen;
+        }
+        .col1{
+            color: lightblue;
+        }
+        .col2{
+            color: lightcoral;
+        }
+        .col3{
+            color: indigo;
+        }
+        .col4{
+            color: green;
+        }
+        .col5{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nested List in HTML</h1>
+    <hr>
+    <ol type="1">
+        <li class="col1">Input Devices</li>
+        <ol type="a">
+            <li class="col2">Pointing Devices</li>
+            <ul type="disc">
+                <li class="col3">Mouse</li>
+                <ul type="circle">
+                    <li class="col4">Optical Mouse</li>
+                    <li class="col4">Mechanical Mouse</li>
+                    <li class="col4">Wireless Mouse</li>
+                    <ul type="disc">
+                        <li class="col5">RF Mouse</li>
+                        <li class="col5">Bluetooth Mouse</li>
+                    </ul>
+                </ul>
+                <li class="col3">Trackball</li>
+                <li class="col3">Touchpad</li>
+                <li class="col3">Pointing Stick</li>
+            </ul>
+            <li class="col2">Touch Screen</li>
+            <li class="col2">Video Input & Audio Input Devices</li>
+            <ul type="disc">
+                <li class="col3">Digital Video Camera</li>
+                <li class="col3">Web Cams</li>
+            </ul>
+        </ol>
+        <li class="col1">Output Devices</li>
+        <ol type="a">
+            <li class="col2">Printers</li>
+            <ul type="disc">
+                <li class="col3">Impact Printer</li>
+                <li class="col3">Non-Impact Printer</li>
+            </ul>
+        </ol>
+    </ol>
+</body>
+</html>
